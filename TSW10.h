@@ -23,8 +23,8 @@ public:
   bool     begin(float voltage, uint16_t maxSteps);
 
   //       READ
-  float    getVoltage(uint8_t cnt = 1);
-  float    getNTU(uint8_t cnt = 1);
+  float    getVoltage(int times = 1);
+  float    getNTU(int times = 1);
   //  can be used with an external ADC
   float    volts2NTU(float volts);
 
